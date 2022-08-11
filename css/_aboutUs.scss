@@ -1,0 +1,38 @@
+.aboutUs {
+    .container1 {
+        .right {
+            img {
+                width: 500px;
+                height: 700px;
+                border-radius: 50%;
+            }
+        }
+
+        .left {
+            .btn {
+                padding: 0 70px;
+
+                a {
+                    .btn1 {
+                        border: 2px solid;
+
+                        background-color: #F5C332;
+                    }
+                }
+
+
+            }
+
+            p {
+                color: #6F6F87;
+                width: 360px;
+            }
+
+            h1 {
+                font-size: 70px;
+                font-weight: 700;
+                color: #231E41;
+            }
+        }
+    }
+}

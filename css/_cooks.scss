@@ -1,0 +1,38 @@
+.cooks {
+    .container1 {
+        .cook {
+            // position: relative;
+            // overflow: hidden;
+            text-align: center;
+
+            .writing-section-cook {
+                padding-top: 15px;
+            }
+
+            h4 {
+                color: #231E41;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            i {
+                color: #231E41;
+            }
+
+            p {
+                color: #9090A3;
+            }
+
+            // &:hover{
+            img {
+                // transform: scale(1.1);
+                width: 260px;
+                height: 350px;
+                // transition: .4s ease-in-out;
+            }
+
+            // }
+
+        }
+    }
+}

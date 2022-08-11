@@ -1,0 +1,60 @@
+@mixin color {
+    color: #231E41;
+}
+
+.experience {
+    .container1 {
+        .e-right {
+            p {
+                color: #848499;
+            }
+
+            h4 {
+                @include color
+            }
+
+            h2 {
+                font-weight: 700;
+                font-size: 45px;
+                @include color
+            }
+
+            span {
+                font-size: 50px;
+                color: #F5C740;
+            }
+
+            width: 630px;
+            padding-left: 70px;
+            padding-top: 90px;
+        }
+
+        .e-left {
+            .number-section {
+                position: absolute;
+                top: 1200px;
+                right: 600px;
+                text-align: center;
+                background-color: white;
+                padding: 20px;
+                box-shadow: 0 5px 5px 0 black;
+                width: 230px;
+
+                .number {
+                    font-size: 75px;
+                    @include color
+                }
+
+                .year {
+                    font-size: 30px;
+                    @include color
+                }
+            }
+
+            img {
+                position: relative;
+                height: 500px;
+            }
+        }
+    }
+}

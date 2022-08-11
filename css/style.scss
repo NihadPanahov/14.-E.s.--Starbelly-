@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container1 {
+    width: 90%;
+    margin: auto;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.my-5 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+@import "_header";
+@import "_aboutUs";
+@import "_experience";
+@import "_most-popular";
+@import "_MoreAboutUs";
+@import "_cooks";
+@import "_AllRightsReserved";

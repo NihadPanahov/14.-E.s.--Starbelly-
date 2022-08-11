@@ -1,0 +1,33 @@
+.MoreAboutUs {
+    padding: 70px 0;
+
+    .container1 {
+        .m-right {
+            a {
+                &:hover {
+                    background-color: #ffe597;
+                }
+
+                transition: 0.5s;
+                border: 1px solid;
+                background-color: #F5C332;
+                color: #221E41;
+                text-decoration: none;
+                border: none;
+                padding: 15px 40px;
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+
+        .m-left {
+            p {
+                color: #9090A3;
+            }
+
+            h1 {
+                color: #231E41;
+            }
+        }
+    }
+}

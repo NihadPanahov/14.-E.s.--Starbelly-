@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container1 {
+  width: 90%;
+  margin: auto;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.my-5 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+header {
+  padding: 30px 0;
+}
+header .header .h-contact {
+  margin-bottom: 14px;
+}
+header .header .h-contact a i {
+  color: #231D43;
+  font-size: 30px;
+  padding: 0 10px;
+}
+header .header .h-contact a i :nth-child(1) {
+  background-color: aqua;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: aqua;
+}
+header .h-menu ul li {
+  padding: 0 30px;
+}
+header .h-menu ul li a {
+  color: #7E7C90;
+  text-decoration: none;
+}
+header .h-logo img {
+  width: 140px;
+  height: 70px;
+}
+
+.aboutUs .container1 .right img {
+  width: 500px;
+  height: 700px;
+  border-radius: 50%;
+}
+.aboutUs .container1 .left .btn {
+  padding: 0 70px;
+}
+.aboutUs .container1 .left .btn a .btn1 {
+  border: 2px solid;
+  background-color: #F5C332;
+}
+.aboutUs .container1 .left p {
+  color: #6F6F87;
+  width: 360px;
+}
+.aboutUs .container1 .left h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: #231E41;
+}
+
+.experience .container1 .e-right {
+  width: 630px;
+  padding-left: 70px;
+  padding-top: 90px;
+}
+.experience .container1 .e-right p {
+  color: #848499;
+}
+.experience .container1 .e-right h4 {
+  color: #231E41;
+}
+.experience .container1 .e-right h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #231E41;
+}
+.experience .container1 .e-right span {
+  font-size: 50px;
+  color: #F5C740;
+}
+.experience .container1 .e-left .number-section {
+  position: absolute;
+  top: 1200px;
+  right: 600px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 5px 0 black;
+  width: 230px;
+}
+.experience .container1 .e-left .number-section .number {
+  font-size: 75px;
+  color: #231E41;
+}
+.experience .container1 .e-left .number-section .year {
+  font-size: 30px;
+  color: #231E41;
+}
+.experience .container1 .e-left img {
+  position: relative;
+  height: 500px;
+}
+
+.most-popular {
+  padding: 100px 0;
+}
+.most-popular .popular-item:hover .popular-img img {
+  transform: scale(1.1);
+}
+.most-popular .popular-item .popular-img {
+  position: relative;
+  overflow: hidden;
+}
+.most-popular .popular-item .popular-img img {
+  transition: 0.4s ease-in-out;
+}
+.most-popular .popular-item .popular-img span {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: seagreen;
+  padding: 3px 8px;
+  color: #fff;
+}
+.most-popular .popular-item .popular-head {
+  background: #eee;
+  padding-left: 15px;
+}
+.most-popular .popular-item .popular-head span {
+  background: goldenrod;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.most-popular .popular-item p {
+  margin: 15px 0;
+}
+.most-popular .popular-item .rating {
+  color: gold;
+}
+
+.MoreAboutUs {
+  padding: 70px 0;
+}
+.MoreAboutUs .container1 .m-right a {
+  transition: 0.5s;
+  border: 1px solid;
+  background-color: #F5C332;
+  color: #221E41;
+  text-decoration: none;
+  border: none;
+  padding: 15px 40px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.MoreAboutUs .container1 .m-right a:hover {
+  background-color: #ffe597;
+}
+.MoreAboutUs .container1 .m-left p {
+  color: #9090A3;
+}
+.MoreAboutUs .container1 .m-left h1 {
+  color: #231E41;
+}
+
+.cooks .container1 .cook {
+  text-align: center;
+}
+.cooks .container1 .cook .writing-section-cook {
+  padding-top: 15px;
+}
+.cooks .container1 .cook h4 {
+  color: #231E41;
+  font-size: 20px;
+  font-weight: 700;
+}
+.cooks .container1 .cook i {
+  color: #231E41;
+}
+.cooks .container1 .cook p {
+  color: #9090A3;
+}
+.cooks .container1 .cook img {
+  width: 260px;
+  height: 350px;
+}
+
+.AllRightsReserved {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.AllRightsReserved .container1 .footer-items i {
+  text-decoration: none;
+  color: #231E41;
+  padding: 0 10px;
+}
+.AllRightsReserved .container1 .footer-items p {
+  color: #B0B2BB;
+}/*# sourceMappingURL=style.css.map */

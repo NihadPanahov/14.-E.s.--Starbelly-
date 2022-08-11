@@ -1,0 +1,52 @@
+.most-popular {
+  padding: 100px 0;
+
+  .popular-item {
+    &:hover {
+      .popular-img {
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    .popular-img {
+      position: relative;
+      overflow: hidden;
+
+      img {
+        transition: .4s ease-in-out;
+      }
+
+      span {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        background: seagreen;
+        padding: 3px 8px;
+        color: #fff;
+      }
+    }
+
+    .popular-head {
+      background: #eee;
+      padding-left: 15px;
+
+      span {
+        background: goldenrod;
+        color: #fff;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+
+    p {
+      margin: 15px 0;
+    }
+
+    .rating {
+      color: gold;
+    }
+  }
+}
