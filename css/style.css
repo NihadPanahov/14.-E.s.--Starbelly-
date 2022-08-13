@@ -190,6 +190,7 @@ header .h-logo img {
 
 .cooks .container1 .cook {
   text-align: center;
+  padding-bottom: 90px;
 }
 .cooks .container1 .cook .writing-section-cook {
   padding-top: 15px;
@@ -221,4 +222,67 @@ header .h-logo img {
 }
 .AllRightsReserved .container1 .footer-items p {
   color: #B0B2BB;
+}
+
+.download {
+  position: relative;
+  background-color: #F9FAFC;
+}
+.download .container1 .d-left {
+  padding-top: 130px;
+}
+.download .container1 .d-left a img {
+  height: 55px;
+}
+.download .container1 .d-left h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: #231E41;
+}
+.download .container1 .d-left pre {
+  padding: 20px 0;
+  color: #6F6F87;
+}
+.download .container1 .d-right img {
+  position: absolute;
+  -webkit-animation: infinite;
+          animation: infinite;
+  -webkit-animation-name: phone-animation;
+          animation-name: phone-animation;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  top: 130px;
+  right: 50px;
+  height: 450px;
+  padding-bottom: 14px;
+}
+
+@-webkit-keyframes phone-animation {
+  0% {
+    top: 130px;
+  }
+  30% {
+    top: 160px;
+  }
+  60% {
+    top: 40px;
+  }
+  100% {
+    top: 130px;
+  }
+}
+
+@keyframes phone-animation {
+  0% {
+    top: 130px;
+  }
+  30% {
+    top: 160px;
+  }
+  60% {
+    top: 40px;
+  }
+  100% {
+    top: 130px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+.download {
+    position: relative;
+    background-color: #F9FAFC;
+    .container1 {
+        .d-left {
+            a {
+                img {
+                    height: 55px;
+                }
+            }
+
+            padding-top: 130px;
+
+            h1 {
+                font-size: 70px;
+                font-weight: 700;
+                color: #231E41;
+            }
+
+            pre {
+                padding: 20px 0;
+                color: #6F6F87;
+            }
+        }
+
+        .d-right {
+            img {
+                position: absolute;
+                animation: infinite;
+                animation-name: phone-animation;
+
+                animation-duration: 5s;
+                top: 130px;
+                right: 50px;
+                height: 450px;
+                padding-bottom: 14px;
+            }
+        }
+    }
+}
+
+@keyframes phone-animation {
+    0% {
+        top: 130px;
+    }
+
+    30% {
+        top: 160px;
+    }
+
+    60% {
+        top: 40px;
+    }
+
+    100% {
+        top: 130px;
+    }
+
+}
